@@ -1,35 +1,39 @@
+/* New csss taken from LeWagon front end class */
 
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
 
-.list1 {
-    color: #C04C5D;
-  }
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
 
-
-  div {
-
-  }
-  
-  h2 {
-    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
+/* Legacy css code can delete */
+/* Note:     "display: inline;" used in "li a" below. this makes thelist inline. If I take all the legacy code out it still works inline so just a note in future that i may need to remove all the leagacy code */
   ul {
-    color: #4F4F4F !important;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    color: red !important;
+    list-style-type: square;
+
   }
   
   li {
   
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #4F4F4F;
+    color: #ee8972;
     font-weight: 200;
     font-size: 20px;
-    border-bottom: 1px solid #ccc;
+    
+    list-style-type: square;
   }
   
   li:last-child {
@@ -37,6 +41,7 @@
   }
   
   li a {
+    list-style-type: square;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #4F4F4F;
@@ -47,7 +52,7 @@
     -o-transition: font-size 0.3s ease, background-color 0.3s ease;
     -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
     transition: font-size 0.3s ease, background-color 0.3s ease;
-    display: block;
+    display: inline;
     width: 200px;
   }
   

@@ -13,10 +13,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    color: #616668;
-}
-
 .text-normal__greyand31px {
     color: #616668;
     font-size: 31px;
@@ -51,3 +47,31 @@ a {
 .text-color_d15a7c {
     color: #d15a7c;
 }
+
+.text-color_424874 {
+    color: #424874;
+}
+
+.text-weblinks_d15a7c {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ee8972;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text-weblinks_d15a7c:hover {
+    color: #da552f;
+    text-decoration: none;
+  }
+
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+    /* text-decoration: underline; This is the default setting */
+}
+
+
+#introduction p {
+    margin-bottom: 40px;
+  }
