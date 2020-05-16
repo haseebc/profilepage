@@ -1,118 +1,170 @@
 body {  
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300; /* if you want the light version */
-    background-color: #f6eec7;
+    /* font-family: 'Open Sans', sans-serif; Normally I use this but not for my profile page*/
+    background: #F7F9FC;
+    /* background-color: #f4eeff; */
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+
 }
 
-
-
-.container-blog__margin--medium{	
-// width: 900px;	
-margin: 90px auto;	
-margin-bottom: 81px;
-width:100%;	
-}	
-
-.container-bloglikemonbiot{	
-        max-width: 850px;
-        padding: 100px;
-}	
-
-.background-white{	
-    background-color: white;
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
 }
 
-.element-width__blog--likemonbiot {		
-width: 900px;
-} 
-
-.heading-title__likemonbiot {		
-color: #D24949;	
-font-size: 14px;
-margin: 30px;
-font-family: "georgia", serif;
-}
-
-.blog-title__likemonbiot{	
-font-family: "georgia", serif;
-font-size: 22px;
-font-family: "georgia", serif;
-line-height: 1.25;
-margin-top: 25px;
-}	
-
-.button-spacing_likeblog{
-    padding: 5px;
-}
-
-.newarticle-blog{
-    margin-top: 20px;
-}
-
-.blog-title__foreachtitle_likemonbiot{	
+h1 {
+    color: #575F7D;
     font-size: 32px;
-    font-family: "Open Sans", "Helvetica", "sans-serif";
-    line-height: 1.25;
-    
-    }	
+    font-weight: 900;
+  }
 
-.description-blog{
-font-family: "georgia", serif;
-font-size: 50px;
-line-height: 1.6; 
-}
-
-.red{
-font-family: "georgia", serif;
-font-size: 50px;
-line-height: 1.6;
-    color: #D24949;	
-}
-
-.timestamp-blog{
-    font-family: "georgia", serif;
-    font-size: 10px;
-    }
-
-.comments-blog {
-    font-weight: bold;
-    font-size: 18px;
-    }
-
-@media (max-width: 767.98px) {   
-.container-bloglikemonbiot{	
-    max-width:320px;
-    padding: 14%;
-    float: none;
-    width: 400px
-    }
-.blog-title__foreachtitle_likemonbiot{	
-    max-width:320px;
-    padding: 0px;
-    
+h2 {
+    color: #7ECE90;
     font-size: 20px;
-    }
+    font-weight: lighter;
+    font-weight: 500;
+}  
 
-.black-burguer{	
-    max-width:320px;
-    padding: 0px;
-    float: none;
-    position: relative;
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
 
-    }
+.img-circle {
+    border-radius: 50%;
+    margin: 30px;
+  }
 
-.dropdown .dropdown-blog {
-    width: 100%;
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
     font-size: 16px;
+}
+
+a:hover {
+        opacity: 1;
+     
+        text-decoration: none;
+    
+      }
+
+   /* below is legacy css can be deleted */
+  .container-blog__margin--medium{	
+    // width: 900px;	
+    margin: 90px auto;	
+    margin-bottom: 81px;
+    width:100%;	
+    }	
+    
+    .container-bloglikemonbiot{	
+            max-width: 850px;
+            padding: 100px;
+    }	
+    
+    .background-white{	
+        background-color: white;
     }
-    .dropdown-blog {
+    
+    .element-width__blog--likemonbiot {		
+    width: 900px;
+    } 
+    
+    .heading-title__likemonbiot {		
+    color: #D24949;	
+    font-size: 14px;
+    margin: 30px;
+    font-family: "georgia", serif;
+    }
+    
+    .blog-title__likemonbiot{	
+    font-family: "georgia", serif;
+    font-size: 22px;
+    font-family: "georgia", serif;
+    line-height: 1.25;
+    margin-top: 25px;
+    }	
+    
+    .button-spacing_likeblog{
+        padding: 5px;
+    }
+    
+    .newarticle-blog{
+        margin-top: 20px;
+    }
+    
+    .blog-title__foreachtitle_likemonbiot{	
+        font-size: 32px;
+        font-family: "Open Sans", "Helvetica", "sans-serif";
+        line-height: 1.25;
+        
+        }	
+    
+    .description-blog{
+    font-family: "georgia", serif;
+    font-size: 50px;
+    line-height: 1.6; 
+    }
+    
+    .red{
+    font-family: "georgia", serif;
+    font-size: 50px;
+    line-height: 1.6;
+        color: #D24949;	
+    }
+    
+    .timestamp-blog{
+        font-family: "georgia", serif;
+        font-size: 10px;
+        }
+    
+    .comments-blog {
+        font-weight: bold;
+        font-size: 18px;
+        }
+    
+    @media (max-width: 767.98px) {   
+    .container-bloglikemonbiot{	
+        max-width:320px;
+        padding: 14%;
+        float: none;
+        width: 400px
+        }
+    .blog-title__foreachtitle_likemonbiot{	
+        max-width:320px;
+        padding: 0px;
+        
+        font-size: 20px;
+        }
+    
+    .black-burguer{	
+        max-width:320px;
+        padding: 0px;
+        float: none;
+        position: relative;
+    
+        }
+    
+    .dropdown .dropdown-blog {
+        width: 100%;
+        font-size: 16px;
+        }
+        .dropdown-blog {
+            min-width: 315px;
+            }
+        .dropdown-content {
         min-width: 315px;
         }
-    .dropdown-content {
-    min-width: 315px;
     }
-}
-
-.padding-aroundtext__medium {
-    padding: 40px;
-}
+    
+    .padding-aroundtext__medium {
+        padding: 40px;
+    }
+    
+    .container-grey  {
+    background-color: #F7F9FC;
+    margin: 0%;
+    margin-top: 10%;
+    }
